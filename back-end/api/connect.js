@@ -2,7 +2,7 @@ import { MongoClient } from "mongodb";
 import dotenv from "dotenv";
 dotenv.config();
 
-const URI = process.env.VITE_URI;
+const URI = "mongodb+srv://vinicius:vini160107@cluster0.2lhr7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 console.log(URI);
 
 const client = new MongoClient(URI);
